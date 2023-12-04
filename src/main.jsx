@@ -18,10 +18,10 @@ import Vuelo from './pages/Vuelo.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Avion/>,
+    element: <Vuelo/>,
   },  {
-    path: "/form",
-    element: <Registro/>,
+    path: "/avion",
+    element: <Avion/>,
   },
   {
     path: "/piloto",
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/tripulacion",
-    element: <Tripulacion/>,
+    element: <Tripulacion />,
   },
   {
     path: "/vuelo",
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/vuelo/form",
-    element: <Registro/>,
+    element: <Registro title="Vuelo"/>,
   },
 ]);
 

@@ -1,9 +1,18 @@
 import Button from 'react-bootstrap/Button';
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import { Col, Container, Row } from 'react-bootstrap';
 
-function Formulario() {
+function Formulario(props) {
   return (
+    <>
+    <Container>
+        <Row>
+            <Col sm={12}>
+                <h1>Registrar {props.title}</h1>
+            </Col>
+        </Row>
+    </Container>
     <Form className="p-4 border rounded" bg="light" >
       <Form.Group className="mb-3" controlId="text1">
         <Form.Label ><h6>Nombre</h6></Form.Label>
@@ -45,6 +54,7 @@ function Formulario() {
         Eliminar
       </Button>
     </Form>
+    </>
   );
 }
 

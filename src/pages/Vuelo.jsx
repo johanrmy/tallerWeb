@@ -7,7 +7,7 @@ const Vuelo = () => {
     return( 
     <>
         <NavBarSystem/>
-        <Dashboard entidad="Vuelos"/>
+        <Dashboard entidad="Vuelos" mostrarBoton={true}/>
     </>
     )
 }

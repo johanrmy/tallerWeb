@@ -14,7 +14,7 @@ function NavBarSystem(props) {
                     <Navbar.Brand href="/">Aerolínea</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/vuelo">Vuelos</Nav.Link>
-                        <Nav.Link href="/form">Aviones</Nav.Link>
+                        <Nav.Link href="/avion">Aviones</Nav.Link>
                         <Nav.Link href="/tripulacion">Tripulación</Nav.Link>
                         <Nav.Link href="/piloto">Piloto</Nav.Link>
                     </Nav>

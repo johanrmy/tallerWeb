@@ -6,7 +6,7 @@ const Tripulacion = () => {
     return(
     <>
         <NavBarSystem/>
-        <Dashboard entidad="Tripulación"/>
+        <Dashboard entidad="Tripulación" mostrarBoton={false}/>
     </>
     )
 }

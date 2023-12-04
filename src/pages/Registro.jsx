@@ -3,11 +3,11 @@ import NavBarSystem from "../components/NavBar"
 import Formulario from '../components/Form';
 
 
-const Registro = () => {
+const Registro = (props) => {
     return( 
     <>
         <NavBarSystem/>
-        <h1><Formulario/></h1>
+        <Formulario title={props.title}/>
     </>
     )
 }
