@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Dashboard from './pages/Dashboard.jsx';
+import Registro from './pages/Registro.jsx';
 
 
 
@@ -15,6 +16,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Dashboard/>,
+  },  {
+    path: "/form",
+    element: <Registro/>,
   },
 ]);
 
