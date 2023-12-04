@@ -1,14 +1,15 @@
 import React from 'react'
 import NavBarSystem from "../components/NavBar"
+import Dashboard from "../components/Dashboard"
 
 
-const Dashboard = () => {
+const Vuelo = () => {
     return( 
     <>
         <NavBarSystem/>
-        <h1>Dashboard</h1>
+        <Dashboard entidad="Vuelos"/>
     </>
     )
 }
 
-export default Dashboard;
+export default Vuelo;

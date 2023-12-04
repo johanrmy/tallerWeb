@@ -7,17 +7,36 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Dashboard from './pages/Dashboard.jsx';
 import Registro from './pages/Registro.jsx';
+import Avion from './pages/Avion.jsx';import Piloto from './pages/Piloto.jsx';
+import Tripulacion from './pages/Tripulacion.jsx';
+import Vuelo from './pages/Vuelo.jsx';
+ './pages/Avion.jsx';
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard/>,
+    element: <Avion/>,
   },  {
     path: "/form",
+    element: <Registro/>,
+  },
+  {
+    path: "/piloto",
+    element: <Piloto/>,
+  },
+  {
+    path: "/tripulacion",
+    element: <Tripulacion/>,
+  },
+  {
+    path: "/vuelo",
+    element: <Vuelo/>,
+  },
+  {
+    path: "/vuelo/form",
     element: <Registro/>,
   },
 ]);
